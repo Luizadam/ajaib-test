@@ -1,4 +1,99 @@
-# Getting Started with Create React App
+# AJAIB
+## WEB ENGINEERING TEST
+There are two attached tests, namely:
+- Question 
+- Personal Project
+
+## this for the answer Question
+- in JavaScript is used to create an instance of an object that has a constructor function. On calling the constructor function with ‘new’ operator
+
+- for instance methode
+var person = {name:"Luiz Adam",say:function(){return "Hello My Name is "+this.name}}
+for class methode
+function User(name) {
+  this.name = name;
+}
+User.prototype.sayHi = function() {
+  alert(this.name);
+};
+let user = new User("Luiz Adam");
+user.sayHi();
+
+- class Animal {
+    constructor(legs) {
+        this.legs = legs;
+    }
+    walk() {
+        console.log('walking on ' + this.legs + ' legs');
+    }
+}
+class Bird extends Animal {
+    constructor(legs) {
+        super(legs);
+    }
+    fly() {
+        console.log('flying');
+    }
+}
+let bird = new Bird(2);
+bird.walk();
+bird.fly();
+
+- i think i will change the function first
+- cosnt jane = () => {
+    const name = 'jane';
+    const mid = 'A';
+    const final = 'B+';
+    return {
+      midtermScore: () => mid,
+      finaltermScore: () => final,
+    }
+  }
+  jane().midtermScore(); 
+  jane().finaltermScore();
+- Verify there is no dead page or invalid redirects.
+First check all the validations on each field.
+Wrong inputs to perform negative testing.
+Verify the workflow of the system.
+Verify the data integrity.
+Browser compatibility
+Operating system compatibility
+Compatible to various devices like notebook, mobile, etc.
+
+- i use oracle web logic server becuase Easy to access,Communicative,Agile
+
+- Deployment plan (Cut over plan)
+Rollback plan
+Deployment exercise
+Going through tasks and the communication plan
+Releasing tasks to task lists
+Check points
+
+- you can see my readme
+
+## Personal Project
+
+I made a web covering about
+- Search by Keayword
+- Filter by Gender
+- Pagination
+
+## Tech
+i uses a number of open source projects to work properly:
+
+- ReactJS
+- Bootstrap 
+- axios
+- github
+
+## Installation
+
+Install the dependencies and devDependencies and start the server.
+```sh
+cd ajaib-test
+npm install
+npm start
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,57 +109,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## I hope my explanation is useful for you
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
